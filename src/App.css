@@ -3,7 +3,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-a{
+a {
   color: inherit;
   text-decoration: inherit;
 }
@@ -15,29 +15,29 @@ section {
 }
 
 .hero {
-  background-color: #EED2DA;
-  border-bottom: 30px double #2D3142;
+  background-color: #eed2da;
+  border-bottom: 30px double #2d3142;
   min-height: 100vh;
 }
 
 .title h2 {
-  color: #2D3142;
+  color: #2d3142;
   font-weight: 500;
   font-size: 12vmin;
   text-align: right;
 }
 
 .title h1 {
-  color: #2D3142;
+  color: #2d3142;
   font-weight: 700;
   font-size: 5vmin;
 }
 
 .projectssection {
-  background-color: #2D3142;
-  color: #EED2DA;
-  border-top: 30px double #EED2DA;
-  border-bottom: 30px double #EED2DA;
+  background-color: #2d3142;
+  color: #eed2da;
+  border-top: 30px double #eed2da;
+  border-bottom: 30px double #eed2da;
   min-height: 100vh;
 }
 
@@ -52,8 +52,8 @@ section {
 }
 
 .projectssection span {
-  color: #2D3142;
-  background-color: #EED2DA;
+  color: #2d3142;
+  background-color: #eed2da;
   padding: 2px;
 }
 
@@ -68,22 +68,22 @@ section {
 .skillstitle {
   text-align: center;
   font-size: 5vmin;
-  color: #2D3142;
+  color: #2d3142;
 }
 
 .skillsection {
   padding: 10px;
   width: 100%;
-  background-color: #2D3142;
+  background-color: #2d3142;
   margin-top: auto;
 }
 
 .skillsection h2 {
-  color: #EED2DA;
+  color: #eed2da;
 }
 
 .skillsection ul {
-  color: #EED2DA;
+  color: #eed2da;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -97,22 +97,25 @@ section {
 
 .project {
   text-align: right;
-  color: #EED2DA;
-  border-right: 5px double #EED2DA;
+  color: #eed2da;
+  border-right: 5px double #eed2da;
   padding: 10px;
   margin-bottom: 20px;
 }
 
 .project h3 {
   font-size: 25px;
+  background-color: #eed2da;
+  color: #2d3142;
+  padding: 5px;
 }
 
 .contact {
-  background-color: #EED2DA;
-  border-top: 30px double #2D3142;
-  color: #2D3142;
+  background-color: #eed2da;
+  border-top: 30px double #2d3142;
+  color: #2d3142;
 }
 
-.contact h1{
+.contact h1 {
   font-size: 5vmin;
 }
