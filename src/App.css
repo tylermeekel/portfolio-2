@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-color: #EED2DA;
+  border-bottom: 30px double #2D3142;
+  min-height: 100vh;
+}
+
+.title h2 {
+  color: #2D3142;
+  font-weight: 500;
+  font-size: 12vmin;
+  text-align: right;
+}
+
+.title h1 {
+  color: #2D3142;
+  font-weight: 700;
+  font-size: 5vmin;
+}
+
+.projectssection {
+  background-color: #2D3142;
+  color: #EED2DA;
+  border-top: 30px double #EED2DA;
+  border-bottom: 30px double #EED2DA;
+  min-height: 100vh;
+}
+
+.projectssection h1 {
+  font-weight: 700;
+  font-size: 5vmin;
+}
+
+.projectssection h2 {
+  margin-top: auto;
+  font-size: 4vmin;
+}
+
+.projectssection span {
+  color: #2D3142;
+  background-color: #EED2DA;
+  padding: 2px;
+}
+
+.skills {
+  padding: 5px;
+  justify-content: space-around;
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.skillstitle {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2D3142;
+}
+
+.skillsection {
+  padding: 10px;
+  width: 100%;
+  background-color: #2D3142;
+  margin-top: auto;
+}
+
+.skillsection h2 {
+  color: #EED2DA;
+}
+
+.skillsection ul {
+  color: #EED2DA;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .skills {
+    flex-direction: column;
+  }
+  .skills {
+    padding: 0px;
+  }
+}
+
+.project {
+  text-align: right;
+  color: #EED2DA;
+  border-right: 5px double #EED2DA;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 25px;
+}
+
+.contact {
+  background-color: #EED2DA;
+  border-top: 30px double #2D3142;
+  color: #2D3142;
+}
+
+.contact h1{
+  font-size: 5vmin;
+}
